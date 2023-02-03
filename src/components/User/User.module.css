@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  background-color: #2b3566;
+  border-radius: 1rem;
+  padding: 2.5rem;
+}
+
+.personal_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+
+  /* margin-bottom: 1rem; */
+}
+
+.container img {
+  width: 200px;
+  height: 200px;
+
+  border: 5px solid #5970f1;
+  border-radius: 100%;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+}
+
+.location_pin {
+  fill: #6bd8cc;
+  font-size: 20px;
+  margin-right: 0.5rem;
+}
+
+.container span {
+  font-weight: 700;
+  color: #9da5d1;
+}
+
+.container ul {
+  list-style: none;
+
+  display: flex;
+
+}
+
+.followers_box {
+  border-right: 1px solid #9da5d1;
+}
+
+.container li {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.count_box {
+  padding: .5rem;
+  width: 5.5rem;
+  height: 2rem;
+
+  background-color: #6bd8cc;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.container button {
+  padding: 1rem 1.8rem;
+
+  background-color: #5970f1;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.container button:hover {
+  opacity: 0.9;
+}

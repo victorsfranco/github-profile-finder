@@ -31,7 +31,16 @@
   color: #2b3566;
 }
 
+.search_container input:focus {
+  outline: 2px solid #5970f1;
+}
+
 .search_container button {
   background-color: #0e1129;
   cursor: pointer;
+  transition: 0.2s;
+}
+
+.search_container button:hover {
+  background-color: #0e1155;
 }
