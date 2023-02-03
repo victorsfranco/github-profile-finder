@@ -23,7 +23,9 @@ const User = ({login, avatar_url, followers, following, location}: UserProps) =>
           <div className={classes.count_box}>{following}</div>
         </li>
       </ul>
-      <button>Ver principais projetos</button>
+      <button>
+        <a target="_blank" href={`https://github.com/${login}?tab=repositories`}>Ver Repositórios</a>
+      </button>
 
     </div>
 
